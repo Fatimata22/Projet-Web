@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Presentation du HTML5 </title>
+</head>
+<body>
+    La presentation du HTML5.
+    <h1>Les balises en HTML5</h1>
+    <p>Les pages HTML sont remplies de ce qu'on appelle des balises. Celles-ci sont invisibles à l'écran pour vos visiteurs, mais elles permettent à l'ordinateur de comprendre ce qu'il doit afficher.</p>
+    <p>Les balises se repèrent facilement. Elles sont entourées de "chevrons", c'est-à-dire des symboles < et >, comme ceci : <balise></p>
+    <p>Les balises indiquent la nature du texte autour d'elles. Elles veulent dire par exemple : "Ceci est le titre de la page", "Ceci est une image", "Ceci est un paragraphe de texte", etc.</p>
+    <p>On distingue deux types de balises : les balises en paires et les balises orphelines.</p>
+    <h4>Les balises en paires</h4>
+    <p>Elles s'ouvrent, contiennent du texte, et se ferment plus loin. Voici à quoi elles ressemblent :</p>
+    <hr>
+    <h3>&lt;titre&gt;PPE2 CONCEPTION SITE WEB&lt;/titre&gt;</h3>
+    <p>On distingue une balise ouvrante (&lt;titre&gt;) et une balise fermante (&lt;/titre&gt;) qui indique que le titre se termine. Cela signifie pour l'ordinateur que tout ce qui n'est pas entre ces deux balises n'est pas un titre.</p>
+    <h3>Les balises orphelines</h3>
+    <p>Ce sont des balises qui servent le plus souvent à insérer un élément à un endroit précis (par exemple une image). Il n'est pas nécessaire de délimiter le début et la fin de l'image, on veut juste dire à l'ordinateur "Insère une image ici".</p>
+    <p>Une balise orpheline s'écrit comme ceci :</p>
+    <hr>
+    <h2>&lt;image /&gt;</h2>
+	<p>Notez que le / de fin n'est pas obligatoire. On pourrait
+	écrire seulement &lt;image&gt;. Néanmoins, pour ne pas confondre avec le
+	premier type de balise, il est recommander de rajouter ce / (slash) à la fin de
+	la balise</p>
+	<h3>Les
+	attributs</h3>
+	<p>Les attributs sont un peu les
+	options des balises. Ils viennent les compléter pour donner des informations supplémentaires. L'attribut se place après le nom de la balise ouvrante et a le plus souvent une valeur, comme ceci :</p>
+	<h2>&lt;balise attribut=&quot;valeur&quot;&gt;</h2>
+	<p>A quoi ça sert ? Prenons la balise &lt;image /&gt; que nous venons de voir. Seule, elle ne sert pas à grand chose. On pourrait rajouter un attribut qui indique le nom de l'image à afficher :</p>
+	<h2>&lt;image nom=&quot;&quot; /&gt;</h2>
+	<p>L'ordinateur comprend alors qu'il doit afficher l'image contenue dans le fichier .</p>
+	<p>Dans le cas d'une balise fonctionnant
+	&quot;par paire&quot;, on ne met les attributs que dans la balise ouvrante et pas dans la balise fermante. Par exemple, ce code indique que la citation est
+	de Voltaire  :</p>
+	<p>&lt;citation auteur=&quot;Voltaire&quot;&gt; Il faut
+	s'instruire dans la gaieté. Le savoir triste est un savoir mort. </p>
+	<p>&lt;/citation&gt;</p>
+	<p>Toutes les balises que nous venons devoir sont fictives. Les vraies balises ont des noms en anglais,nous allons les découvrir dans la suite de ce cours. </p>
+	&nbsp;
+	<h2>II ) Structure de base d'une page HTML5 </h2>
+	<p>Copier-coller le code source ci-dessous dans Notepad++. Ce code correspond à la base d'une page web en HTML5 :</p>
+	<p><b>&lt;!DOCTYPE html&gt;</b></p>
+	<p><b>&lt;html&gt;
+	&lt;head&gt;</b></p>
+	<h3>        &lt;meta charset=&quot;utf-8&quot; /&gt;
+	&lt;title&gt;Titre&lt;/title&gt;      &lt;/head&gt;     &lt;body&gt;
+	&lt;/body&gt; &lt;/html&gt;</h3>
+	<h2>III ) Les balises HTML sont :  </h2>
+
+
+<table><tr><th
+id="coloneHTml51" valign="top">Balise</th><th
+id="coloneHTml52" valign="top">Description</th></tr><tr><td
+valign="top"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-html5-commentaire">&lt;!&#8211; &#8230; &#8211;&gt;</a></td><td
+valign="top">Définit un commentaire</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-doctype-html5">&lt;!DOCTYPE&gt;</a></td><td
+valign="top">Définit le type du document</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-a-html5-lien">&lt;a&gt;</a></td><td
+valign="top">Définit un lien</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-abbr-html5">&lt;abbr&gt;</a></td><td
+valign="top">Définit une abréviation</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-address-html5">&lt;address&gt;</a></td><td
+valign="top">Définit une adresse</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-area-html5">&lt;area&gt;</a></td><td
+valign="top">Définit une zone à l&rsquo;intérieur d&rsquo;une image</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-article-html5">&lt;article&gt;</a><span
+class="nouvelBaliseHtml5Liste">NOUVEAU</span></td><td
+valign="top">Définit un article</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-aside-html5">&lt;aside&gt;</a><span
+class="nouvelBaliseHtml5Liste">NOUVEAU</span></td><td
+valign="top">Définit une partie latérale au contenu</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-audio-html5">&lt;audio&gt;</a><span
+class="nouvelBaliseHtml5Liste">NOUVEAU</span></td><td
+valign="top">Définit un fichier audio</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-b-html5">&lt;b&gt;</a></td><td
+valign="top">Texte en gras</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-base-html5">&lt;base&gt;</a></td><td
+valign="top">Définit une URL de base pour tous les liens de la page</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-do-html5">&lt;bdo&gt;</a></td><td
+valign="top">Définit la direction du texte</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-blockquote-html5">&lt;blockquote&gt;</a></td><td
+valign="top">Définit une longue citation</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-body-html5">&lt;body&gt;</a></td><td
+valign="top">Définit le corps de la page</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-br-html5">&lt;br&gt;</a></td><td
+valign="top">Saut de ligne</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-button-html5">&lt;button&gt;</a></td><td
+valign="top">Définit un bouton cliquable</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-canvas-html5">&lt;canvas&gt;</a><span
+class="nouvelBaliseHtml5Liste">NOUVEAU</span></td><td
+valign="top">Définit un graphique</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-caption-html5">&lt;caption&gt;</a></td><td
+valign="top">Légende du tableau</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-cite-html5">&lt;cite&gt;</a></td><td
+valign="top">Définit une citation</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-code-html5">&lt;code&gt;</a></td><td
+valign="top">Mise en forme d&rsquo;un texte en code informatique</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-col-html5">&lt;col&gt;</a></td><td
+valign="top">Définit une colonne d&rsquo;un tableau</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-colgroup-html5">&lt;colgroup&gt;</a></td><td
+valign="top">Définit un groupe de colonne pour un tableau</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-command-html5">&lt;command&gt;</a><span
+class="nouvelBaliseHtml5Liste">NOUVEAU</span></td><td
+valign="top">Définit un bouton de commande</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-datalist-html5">&lt;datalist&gt;</a><span
+class="nouvelBaliseHtml5Liste">NOUVEAU</span></td><td
+valign="top">Définit une liste d&rsquo;options</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-dd-html5">&lt;dd&gt;</a></td><td
+valign="top">Définition d&rsquo;un terme</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-del-html5">&lt;del&gt;</a></td><td
+valign="top">Définit un texte supprimé</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-details-html5">&lt;details&gt;</a><span
+class="nouvelBaliseHtml5Liste">NOUVEAU</span></td><td
+valign="top">Définit les détails d&rsquo;un élément</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-dfn-html5">&lt;dfn&gt;</a></td><td
+valign="top">Définition</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-div-html5">&lt;div&gt;</a></td><td
+valign="top">Définit un calque ou une section</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-dl-html5">&lt;dl&gt;</a></td><td
+valign="top">Liste de définition</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-dt-html5">&lt;dt&gt;</a></td><td
+valign="top">Définition d&rsquo;un terme</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-em-html5">&lt;em&gt;</a></td><td
+valign="top">Mise en exergue d&rsquo;un texte &#8211; italique</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-embed-html5">&lt;embed&gt;</a><span
+class="nouvelBaliseHtml5Liste">NOUVEAU</span></td><td
+valign="top">Définit un contenu extérieur (audio, vidéo &#8230;)</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-fieldset-html5">&lt;fieldset&gt;</a></td><td
+valign="top">Regroupe plusieurs éléments d&rsquo;un formulaire</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-figcaption-html5">&lt;figcaption&gt;</a><span
+class="nouvelBaliseHtml5Liste">NOUVEAU</span></td><td
+valign="top">Légende d&rsquo;un groupe d&rsquo;élément multimédia</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-figure-html5">&lt;figure&gt;</a><span
+class="nouvelBaliseHtml5Liste">NOUVEAU</span></td><td
+valign="top">Définit un groupe d&rsquo;élément multimédia</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-footer-html5">&lt;footer&gt;</a><span
+class="nouvelBaliseHtml5Liste">NOUVEAU</span></td><td
+valign="top">Définit le bas d&rsquo;un section ou d&rsquo;une page</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-form-html5">&lt;form&gt;</a></td><td
+valign="top">Définit un formulaire</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-h1-a-h6-html5">&lt;h1&gt; to &lt;h6&gt;</a></td><td
+valign="top">Définit un titre par degré importance de 1 à 6</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-head-html5">&lt;head&gt;</a></td><td
+valign="top">Définit l&rsquo;en-tête d&rsquo;un document</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-header-html5">&lt;header&gt;</a><span
+class="nouvelBaliseHtml5Liste">NOUVEAU</span></td><td
+valign="top">Définit le haut d&rsquo;une section ou d&rsquo;une page</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-hgroup-html5">&lt;hgroup&gt;</a><span
+class="nouvelBaliseHtml5Liste">NOUVEAU</span></td><td
+valign="top">Regroupe les informations du haut d&rsquo;une page ou section</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-hr-html5">&lt;hr&gt;</a></td><td
+valign="top">Barre horizontale</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-html-html5">&lt;html&gt;</a></td><td
+valign="top">Définit un document html</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-i-html5">&lt;i&gt;</a></td><td
+valign="top">Texte en italique</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-iframe-html5">&lt;iframe&gt;</a></td><td
+valign="top">Introduit un page html dans une frame</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-img-html5">&lt;img&gt;</a></td><td
+valign="top">Définit une image</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-input-html5">&lt;input&gt;</a></td><td
+valign="top">Définit un champ</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-ins-html5">&lt;ins&gt;</a></td><td
+valign="top">Définit un texte insérer</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-keygen-html5">&lt;keygen&gt;</a><span
+class="nouvelBaliseHtml5Liste">NOUVEAU</span></td><td
+valign="top">Générateur de clé pour un formulaire</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-kbd-html5">&lt;kbd&gt;</a></td><td
+valign="top">Raccourcis ou touche du clavier</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-label-html5">&lt;label&gt;</a></td><td
+valign="top">Légende d&rsquo;un groupe d&rsquo;élément de formulaire</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-legend-html5">&lt;legend&gt;</a></td><td
+valign="top">Titre d&rsquo;un groupe d&rsquo;élément d&rsquo;un formulaire</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-li-html5">&lt;li&gt;</a></td><td
+valign="top">Élément d&rsquo;une liste</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-link-html5">&lt;link&gt;</a></td><td
+valign="top">Définit les relations entre les documents</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-map-html5">&lt;map&gt;</a></td><td
+valign="top">Définit une carte</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-mark-html5">&lt;mark&gt;</a><span
+class="nouvelBaliseHtml5Liste">NOUVEAU</span></td><td
+valign="top">Mise en valeur d&rsquo;un mot ou d&rsquo;un texte &#8211; Texte marqué</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-math-html5">&lt;math&gt;</a><span
+class="nouvelBaliseHtml5Liste">NOUVEAU</span></td><td
+valign="top">Définit une formule mathématique</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-menu-html5">&lt;menu&gt;</a></td><td
+valign="top">Définit un menu en liste</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-meta-html5">&lt;meta&gt;</a></td><td
+valign="top">Définit des informations relatives au document</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-meter-html5">&lt;meter&gt;</a><span
+class="nouvelBaliseHtml5Liste">NOUVEAU</span></td><td
+valign="top">Définit une unité de mesure</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-nav-html5">&lt;nav&gt;</a><span
+class="nouvelBaliseHtml5Liste">NOUVEAU</span></td><td
+valign="top">Définit un groupe de liens de navigation</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-noscript-html5">&lt;noscript&gt;</a></td><td
+valign="top">Définit une alternative au script non supporté</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-object-html5">&lt;object&gt;</a></td><td
+valign="top">Définit un objet du contenu extérieur multimédia</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-ol-html5">&lt;ol&gt;</a></td><td
+valign="top">Définit une liste ordonné</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-optgroup-html5">&lt;optgroup&gt;</a></td><td
+valign="top">Regroupe d&rsquo;une liste d&nbsp;&raquo;option dans un formulaire</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-option-html5">&lt;option&gt;</a></td><td
+valign="top">Option d&rsquo;une liste dans un formulaire</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-output-html5">&lt;output&gt;</a><span
+class="nouvelBaliseHtml5Liste">NOUVEAU</span></td><td
+valign="top">Définit un type de sortie</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-p-html5-paragraph">&lt;p&gt;</a></td><td
+valign="top">Définit un paragraphe</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-param-html5">&lt;param&gt;</a></td><td
+valign="top">Définit les paramètres d&rsquo;un objet</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-pre-html5">&lt;pre&gt;</a></td><td
+valign="top">Texte pré-formaté</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-progress-html5">&lt;progress&gt;</a><span
+class="nouvelBaliseHtml5Liste">NOUVEAU</span></td><td
+valign="top">Définit une progression</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-q-html5">&lt;q&gt;</a></td><td
+valign="top">Définit une courte citation</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-rp-html5">&lt;rp&gt;</a><span
+class="nouvelBaliseHtml5Liste">NOUVEAU</span></td><td
+valign="top">Annotation ruby si le script n&rsquo;est pas supporté</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-rt-html5">&lt;rt&gt;</a><span
+class="nouvelBaliseHtml5Liste">NOUVEAU</span></td><td
+valign="top">Annotation ruby d&rsquo;explication</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-ruby-html5">&lt;ruby&gt;</a><span
+class="nouvelBaliseHtml5Liste">NOUVEAU</span></td><td
+valign="top">Définit une annotation en ruby</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-samp-html5">&lt;samp&gt;</a></td><td
+valign="top">Définit un échantillon de code</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-script-html5">&lt;script&gt;</a></td><td
+valign="top">Définit un script</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-section-html5">&lt;section&gt;</a><span
+class="nouvelBaliseHtml5Liste">NOUVEAU</span></td><td
+valign="top">Définit une section</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-select-html5">&lt;select&gt;</a></td><td
+valign="top">Définit une liste sélectionnable</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-small-html5">&lt;small&gt;</a></td><td
+valign="top">Minimise l&rsquo;importance d&rsquo;un texte</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-source-html5">&lt;source&gt;</a><span
+class="nouvelBaliseHtml5Liste">NOUVEAU</span></td><td
+valign="top">Définit la source d&rsquo;un contenu multimédia</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-span-html5">&lt;span&gt;</a></td><td
+valign="top">Définit une section de type inline</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-strong-html5">&lt;strong&gt;</a></td><td
+valign="top">Mise en exergue d&rsquo;un texte &#8211; Texte en Gras</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-style-html5">&lt;style&gt;</a></td><td
+valign="top">Définit un style CSS</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-sub-html5">&lt;sub&gt;</a></td><td
+valign="top">Mise en indice d&rsquo;un texte</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-summary-html5">&lt;summary&gt;</a><span
+class="nouvelBaliseHtml5Liste">NOUVEAU</span></td><td
+valign="top">Définit l&rsquo;en-tête des détails d&rsquo;un document ou section</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-sup-html5">&lt;sup&gt;</a></td><td
+valign="top">Mise en exposant d&rsquo;un texte</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-svg-html5">&lt;svg&gt;</a><span
+class="nouvelBaliseHtml5Liste">NOUVEAU</span></td><td
+valign="top">Définit une image vectorielle</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-table-html5">&lt;table&gt;</a></td><td
+valign="top">Définit un tableau</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-tbody-html5">&lt;tbody&gt;</a></td><td
+valign="top">Définit le corps d&rsquo;un tableau</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-td-html5">&lt;td&gt;</a></td><td
+valign="top">Définit une cellule d&rsquo;un tableau</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-textarea-html5">&lt;textarea&gt;</a></td><td
+valign="top">Définit une zone de texte</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-tfoot-html5">&lt;tfoot&gt;</a></td><td
+valign="top">Définit le bas d&rsquo;un tableau</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-th-html5">&lt;th&gt;</a></td><td
+valign="top">Définit une cellule d&rsquo;en-tête d&rsquo;un tableau</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-thead-html5">&lt;thead&gt;</a></td><td
+valign="top">Définit le haut d&rsquo;un tableau</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-time-html5">&lt;time&gt;</a><span
+class="nouvelBaliseHtml5Liste">NOUVEAU</span></td><td
+valign="top">Définit une unité de temps</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-title-html5">&lt;title&gt;</a></td><td
+valign="top">Définit le titre d&rsquo;un document</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-tr-html5">&lt;tr&gt;</a></td><td
+valign="top">Définit une ligne de tableau</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-track-html5">&lt;track&gt;</a><span
+class="nouvelBaliseHtml5Liste">NOUVEAU</span></td><td
+valign="top">Définit une unité de temps pour les éléments &lt;audio&gt; et &lt;video&gt;.</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-ul-html5">&lt;ul&gt;</a></td><td
+valign="top">Définit une liste non-ordonné</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-var-html5">&lt;var&gt;</a></td><td
+valign="top">Définit une variable</td></tr><tr><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-video-html5">&lt;video&gt;</a><span
+class="nouvelBaliseHtml5Liste">NOUVEAU</span></td><td
+valign="top">Définit une vidéo</td></tr><tr
+class="backgroundEvenement"><td
+valign="center"><a
+href="http://41mag.fr/liste-des-balises-html5/balise-wbr-html5">&lt;wbr&gt;</a><span
+class="nouvelBaliseHtml5Liste">NOUVEAU</span></td><td
+valign="top">Définit un possible retour à la ligne</td></tr></tbody></table>
+
+</body>
+</html>
